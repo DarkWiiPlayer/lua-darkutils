@@ -1,3 +1,5 @@
+--- A module with many general purpose utility functions.
+-- @module darkutils
 darkutils = {
 }
 
