@@ -1,6 +1,8 @@
 --- A module with many general purpose utility functions.
+-- The mdule itself can be called like a function to insert all of its features into the global namespace.
 -- @module darkutils
 darkutils = {
+  arg = require 'darkutils.arg';
 }
 
 return setmetatable(darkutils, {__call=function(self, override)

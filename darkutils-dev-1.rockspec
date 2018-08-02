@@ -11,10 +11,11 @@ dependencies = {
   "lua >= 5.1";
 }
 build = {
+  type = 'none';
   install = {
     lua = {
-      ['darkutils.init']='src/init.lua'
-      ['darkutils.table']='src/table.lua'
+      ['darkutils.init']='darkutils/init.lua';
+      ['darkutils.arg']='darkutils/arg.lua';
     }
   }
 }
